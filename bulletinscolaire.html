@@ -1727,16 +1727,15 @@ function renderBulletin(){
   const cfg=S.config;
   const primaryColor=cfg.color||'#1a365d';
   const goldColor='#d4af37';
-  const ab=S.absences[eId]?.[bulP===0?1:bulP]||{just:0,injust:0,retard:0};
-  const dec2=S.decisions[eId]||{decision:'',obs:''};
+  const dec=S.decisions[eId]||{};
   // Decision badge
   let decBadge='',decText='';
-  if(dec2.decision==='admis'){decBadge='✅';decText='Admis(e) en classe supérieure';}
-  else if(dec2.decision==='redouble'){decBadge='🔁';decText='Redoublant(e)';}
-  else if(dec2.decision==='oriente'){decBadge='🎓';decText='Orienté(e)';}
-  else if(dec2.decision==='exclu'){decBadge='❌';decText='Exclu(e)';}
-  const decColor=dec2.decision==='admis'?'#d1fae5':dec2.decision==='redouble'?'#fee2e2':'#e0e7ff';
-  const decBorderColor=dec2.decision==='admis'?'#6ee7b7':dec2.decision==='redouble'?'#fca5a5':'#a5b4fc';
+  if(dec.decision==='admis'){decBadge='✅';decText='Admis(e) en classe supérieure';}
+  else if(dec.decision==='redouble'){decBadge='🔁';decText='Redoublant(e)';}
+  else if(dec.decision==='oriente'){decBadge='🎓';decText='Orienté(e)';}
+  else if(dec.decision==='exclu'){decBadge='❌';decText='Exclu(e)';}
+  const decColor=dec.decision==='admis'?'#d1fae5':dec.decision==='redouble'?'#fee2e2':'#e0e7ff';
+  const decBorderColor=dec.decision==='admis'?'#6ee7b7':dec.decision==='redouble'?'#fca5a5':'#a5b4fc';
   let dobStr='—';if(el.dob){const d=new Date(el.dob);dobStr=d.toLocaleDateString('fr-FR');}
   const td=cfg.trimDates?.[bulP===0?3:bulP]||{start:'',end:''};
   let periodLabel=isAnnual?'Bilan Annuel':`${bulP}ème Trimestre`;
@@ -1748,7 +1747,6 @@ function renderBulletin(){
   const logoHTML=cfg.logo?`<img src="${cfg.logo}" style="width:100%;height:100%;object-fit:contain;border-radius:50%">`
     :`<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="20" fill="${goldColor}"/><text x="20" y="26" text-anchor="middle" font-size="18" fill="${primaryColor}">🎓</text></svg>`;
   // Conduct data — correct field mapping
-  const dec=S.decisions[eId]||{};
   const obsProf=dec.obsProf||'';
   const obsDir=dec.obs||'';
   const pointsForts=dec.pointsForts||'';
@@ -1766,12 +1764,6 @@ function renderBulletin(){
   }else{
     ab=S.absences[eId]?.[bulP]||{just:0,injust:0,retard:0};
   }
-  // Decision badge
-  let decBadge='',decText='';
-  if(dec.decision==='admis'){decBadge='✅';decText='Admis(e) en classe supérieure';}
-  else if(dec.decision==='redouble'){decBadge='🔁';decText='Redoublant(e)';}
-  else if(dec.decision==='oriente'){decBadge='🎓';decText='Orienté(e)';}
-  else if(dec.decision==='exclu'){decBadge='❌';decText='Exclu(e)';}
   // Total coeff & points
   let totalPts=0,totalCoeff=0;
   const stats=studentFullStats(eId,isAnnual?1:bulP);
