@@ -1,12 +1,11 @@
 import React from 'react';
-import { StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { StatusBar } from 'expo-status-bar';
 
 import { AppProvider } from './src/context/AppContext';
 import { RootNavigator } from './src/navigation/RootNavigator';
-import { Colors } from './src/constants/colors';
 
 export default function App() {
   return (
@@ -14,10 +13,7 @@ export default function App() {
       <SafeAreaProvider>
         <AppProvider>
           <NavigationContainer>
-            <StatusBar
-              backgroundColor={Colors.primary}
-              barStyle="light-content"
-            />
+            <StatusBar style="light" backgroundColor="#1B2A4A" />
             <RootNavigator />
           </NavigationContainer>
         </AppProvider>
