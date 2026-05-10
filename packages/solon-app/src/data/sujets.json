@@ -1,0 +1,154 @@
+{
+  "SVT": [
+    {
+      "id": "svt-001",
+      "matiere": "Biologie",
+      "titre": "La division cellulaire : mitose et méiose",
+      "chapitre": "Chapitre 1 — Reproduction cellulaire",
+      "duree_estimee_min": 45,
+      "statut": "a_faire"
+    },
+    {
+      "id": "svt-002",
+      "matiere": "Biologie",
+      "titre": "La synthèse des protéines : transcription et traduction",
+      "chapitre": "Chapitre 2 — Expression du génome",
+      "duree_estimee_min": 60,
+      "statut": "a_faire"
+    },
+    {
+      "id": "svt-003",
+      "matiere": "Biologie",
+      "titre": "Le système immunitaire et la réponse immunitaire",
+      "chapitre": "Chapitre 3 — Immunologie",
+      "duree_estimee_min": 50,
+      "statut": "en_cours"
+    },
+    {
+      "id": "svt-004",
+      "matiere": "Géologie",
+      "titre": "La tectonique des plaques",
+      "chapitre": "Chapitre 4 — Structure de la Terre",
+      "duree_estimee_min": 40,
+      "statut": "valide"
+    },
+    {
+      "id": "svt-005",
+      "matiere": "Géologie",
+      "titre": "Le cycle des roches",
+      "chapitre": "Chapitre 5 — Pétrologie",
+      "duree_estimee_min": 35,
+      "statut": "a_faire"
+    },
+    {
+      "id": "svt-006",
+      "matiere": "Chimie",
+      "titre": "Les réactions d'oxydo-réduction",
+      "chapitre": "Chapitre 6 — Chimie organique",
+      "duree_estimee_min": 55,
+      "statut": "a_faire"
+    }
+  ],
+  "LLA": [
+    {
+      "id": "lla-001",
+      "matiere": "Littérature",
+      "titre": "L'existentialisme dans la littérature française",
+      "chapitre": "Chapitre 1 — Mouvements littéraires",
+      "duree_estimee_min": 50,
+      "statut": "a_faire"
+    },
+    {
+      "id": "lla-002",
+      "matiere": "Linguistique",
+      "titre": "Morphologie et syntaxe du français",
+      "chapitre": "Chapitre 2 — Grammaire avancée",
+      "duree_estimee_min": 45,
+      "statut": "en_cours"
+    },
+    {
+      "id": "lla-003",
+      "matiere": "Littérature Haïtienne",
+      "titre": "L'indigénisme et la littérature haïtienne",
+      "chapitre": "Chapitre 3 — Identité culturelle",
+      "duree_estimee_min": 40,
+      "statut": "a_faire"
+    },
+    {
+      "id": "lla-004",
+      "matiere": "Philosophie",
+      "titre": "Les grandes écoles philosophiques antiques",
+      "chapitre": "Chapitre 4 — Histoire de la philosophie",
+      "duree_estimee_min": 60,
+      "statut": "valide"
+    }
+  ],
+  "SMP": [
+    {
+      "id": "smp-001",
+      "matiere": "Mathématiques",
+      "titre": "Analyse : limites et continuité des fonctions",
+      "chapitre": "Chapitre 1 — Analyse réelle",
+      "duree_estimee_min": 60,
+      "statut": "a_faire"
+    },
+    {
+      "id": "smp-002",
+      "matiere": "Mathématiques",
+      "titre": "Algèbre linéaire : matrices et déterminants",
+      "chapitre": "Chapitre 2 — Algèbre",
+      "duree_estimee_min": 55,
+      "statut": "en_cours"
+    },
+    {
+      "id": "smp-003",
+      "matiere": "Physique",
+      "titre": "Mécanique newtonienne et lois de Newton",
+      "chapitre": "Chapitre 3 — Mécanique classique",
+      "duree_estimee_min": 50,
+      "statut": "a_faire"
+    },
+    {
+      "id": "smp-004",
+      "matiere": "Physique",
+      "titre": "L'électromagnétisme : loi de Faraday",
+      "chapitre": "Chapitre 4 — Électromagnétisme",
+      "duree_estimee_min": 65,
+      "statut": "a_faire"
+    }
+  ],
+  "SES": [
+    {
+      "id": "ses-001",
+      "matiere": "Économie",
+      "titre": "Les fondements de la microéconomie",
+      "chapitre": "Chapitre 1 — Théorie économique",
+      "duree_estimee_min": 45,
+      "statut": "a_faire"
+    },
+    {
+      "id": "ses-002",
+      "matiere": "Économie",
+      "titre": "Les politiques macroéconomiques",
+      "chapitre": "Chapitre 2 — Macroéconomie",
+      "duree_estimee_min": 50,
+      "statut": "valide"
+    },
+    {
+      "id": "ses-003",
+      "matiere": "Sociologie",
+      "titre": "La stratification sociale et les classes",
+      "chapitre": "Chapitre 3 — Structure sociale",
+      "duree_estimee_min": 40,
+      "statut": "en_cours"
+    },
+    {
+      "id": "ses-004",
+      "matiere": "Sciences Politiques",
+      "titre": "Les systèmes politiques contemporains",
+      "chapitre": "Chapitre 4 — Politologie",
+      "duree_estimee_min": 45,
+      "statut": "a_faire"
+    }
+  ]
+}

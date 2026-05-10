@@ -1,0 +1,117 @@
+{
+  "themes": [
+    {
+      "id": "pron-001",
+      "nom": "La division cellulaire",
+      "matiere": "Biologie",
+      "frequence_pct": 87,
+      "tendance": "en_hausse",
+      "formats_frequents": ["Dissertation", "Analyse de schéma", "QCM"],
+      "conseil_solon": "Ce sujet tombe presque chaque année sous forme de schéma à légender. Maîtrisez les étapes de la mitose ET de la méiose. Les erreurs classiques : confondre les phases, oublier la cytocinèse. Entraînez-vous à dessiner les chromosomes sans regarder vos notes.",
+      "sous_themes_cles": [
+        "Les phases de la mitose (prophase, métaphase, anaphase, télophase)",
+        "La méiose et la variabilité génétique",
+        "La régulation du cycle cellulaire",
+        "Les anomalies mitotiques et leurs conséquences"
+      ]
+    },
+    {
+      "id": "pron-002",
+      "nom": "La synthèse des protéines",
+      "matiere": "Biologie",
+      "frequence_pct": 82,
+      "tendance": "stable",
+      "formats_frequents": ["Schéma commenté", "Texte à trous", "Dissertation"],
+      "conseil_solon": "Transcription → ARNm → Traduction → Protéine. Ce chemin doit être automatique. Soignez particulièrement le rôle des ribosomes et le code génétique. Les correcteurs cherchent la précision du vocabulaire : ADN, ARNm, ARNt, codon, anticodon.",
+      "sous_themes_cles": [
+        "La transcription dans le noyau",
+        "La maturation de l'ARNm (épissage)",
+        "La traduction ribosomale",
+        "Le code génétique et sa dégénérescence"
+      ]
+    },
+    {
+      "id": "pron-003",
+      "nom": "La tectonique des plaques",
+      "matiere": "Géologie",
+      "frequence_pct": 75,
+      "tendance": "stable",
+      "formats_frequents": ["Carte géologique", "Dissertation", "Exercice de datation"],
+      "conseil_solon": "Sachez distinguer les trois types de frontières de plaques et leurs conséquences géologiques. Haïti étant en zone sismique active, les correcteurs apprécient les élèves qui font le lien avec leur territoire.",
+      "sous_themes_cles": [
+        "Les preuves de la dérive des continents",
+        "Frontières convergentes, divergentes, transformantes",
+        "La subduction et la formation des chaînes de montagnes",
+        "Le volcanisme et la sismicité aux frontières"
+      ]
+    },
+    {
+      "id": "pron-004",
+      "nom": "Les politiques macroéconomiques",
+      "matiere": "Économie",
+      "frequence_pct": 79,
+      "tendance": "en_hausse",
+      "formats_frequents": ["Étude de cas", "Dissertation", "Analyse de graphique"],
+      "conseil_solon": "En contexte haïtien, les questions sur l'inflation, la politique monétaire de la BRH, et l'aide internationale sont récurrentes. Maîtrisez les outils de la politique budgétaire ET monétaire, et leurs limites dans les pays en développement.",
+      "sous_themes_cles": [
+        "La politique budgétaire : déficit et dette publique",
+        "La politique monétaire et le rôle de la banque centrale",
+        "L'inflation et ses effets sociaux",
+        "Les politiques de développement en Haïti"
+      ]
+    },
+    {
+      "id": "pron-005",
+      "nom": "L'existentialisme français",
+      "matiere": "Littérature",
+      "frequence_pct": 71,
+      "tendance": "stable",
+      "formats_frequents": ["Commentaire de texte", "Dissertation littéraire"],
+      "conseil_solon": "Sartre et Camus sont incontournables. Sachez distinguer l'existentialisme sartrien de l'absurde camusien. Préparez des citations mémorisées des deux auteurs. Pour Camus, L'Étranger et La Peste sont les textes clés.",
+      "sous_themes_cles": [
+        "L'existence précède l'essence (Sartre)",
+        "L'absurde et la révolte (Camus)",
+        "La liberté et la responsabilité sartrienne",
+        "Le contexte historique : guerre, occupation, résistance"
+      ]
+    }
+  ],
+  "angles_morts": [
+    {
+      "id": "angle-001",
+      "nom": "La régulation hormonale",
+      "matiere": "Biologie",
+      "derniere_apparition": 2019,
+      "risque_surprise": "très_élevé",
+      "justification": "Absent depuis 7 ans, ce sujet couvre le système endocrinien et les rétrocontrôles. Les statistiques sur 20 ans montrent un retour probable. Les préparateurs l'ont souvent dit : 'ça fait longtemps que ça n'est pas passé.'",
+      "conseil_solon": "Révisez impérativement : insuline/glucagon (régulation de la glycémie), les hormones sexuelles et la puberté, et le principe de rétrocontrôle négatif. Ce sujet peut valoir 20 points si vous le connaissez et que les autres l'ont zappé."
+    },
+    {
+      "id": "angle-002",
+      "nom": "L'algèbre linéaire avancée",
+      "matiere": "Mathématiques",
+      "derniere_apparition": 2021,
+      "risque_surprise": "élevé",
+      "justification": "Les espaces vectoriels et les applications linéaires sont rarement au cœur du sujet, mais apparaissent souvent en question bonus difficile. Les meilleurs candidats s'y préparent.",
+      "conseil_solon": "Ne négligez pas les espaces vectoriels, les bases et la dimension. Un exercice sur le rang d'une matrice ou les sous-espaces vectoriels peut départager les 18/20 des 14/20."
+    },
+    {
+      "id": "angle-003",
+      "nom": "La littérature haïtienne contemporaine",
+      "matiere": "Littérature Haïtienne",
+      "derniere_apparition": 2020,
+      "risque_surprise": "très_élevé",
+      "justification": "Avec l'accent croissant sur l'identité culturelle dans les programmes, les auteurs haïtiens contemporains (après 1986) sont sous-représentés dans les révisions des élèves.",
+      "conseil_solon": "Lisez au moins deux œuvres d'auteurs haïtiens post-1986. Dany Laferrière (Académie française) et Lyonel Trouillot sont des valeurs sûres. Préparez une réflexion sur la langue (français vs créole) dans la littérature haïtienne."
+    },
+    {
+      "id": "angle-004",
+      "nom": "La sociologie des organisations",
+      "matiere": "Sociologie",
+      "derniere_apparition": 2018,
+      "risque_surprise": "élevé",
+      "justification": "Weber, Durkheim appliqués aux organisations modernes. Sujet qui revient régulièrement dans les cycles de 8 ans selon l'analyse des 30 derniers Baccalauréats NS4.",
+      "conseil_solon": "Révisez les types d'autorité selon Weber (traditionnelle, charismatique, légale-rationnelle), les concepts de bureaucratie, et appliquez-les à la réalité haïtienne. Les correcteurs apprécient les exemples locaux."
+    }
+  ]
+}
