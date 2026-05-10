@@ -1,0 +1,74 @@
+[
+  {
+    "id": "lecon-001",
+    "titre": "Introduction à la mitose — Cours complet",
+    "matiere": "Biologie",
+    "duree_sec": 1800,
+    "url_distante": "https://cdn.solonapp.ht/audio/svt/mitose-introduction.m4a",
+    "chemin_local": null,
+    "taille_mo": 8.5
+  },
+  {
+    "id": "lecon-002",
+    "titre": "Synthèse protéique : de l'ADN aux protéines",
+    "matiere": "Biologie",
+    "duree_sec": 2400,
+    "url_distante": "https://cdn.solonapp.ht/audio/svt/synthese-proteique.m4a",
+    "chemin_local": null,
+    "taille_mo": 11.2
+  },
+  {
+    "id": "lecon-003",
+    "titre": "Le système immunitaire expliqué simplement",
+    "matiere": "Biologie",
+    "duree_sec": 2100,
+    "url_distante": "https://cdn.solonapp.ht/audio/svt/immunologie.m4a",
+    "chemin_local": null,
+    "taille_mo": 9.8
+  },
+  {
+    "id": "lecon-004",
+    "titre": "Tectonique des plaques — Résumé et exercices",
+    "matiere": "Géologie",
+    "duree_sec": 1500,
+    "url_distante": "https://cdn.solonapp.ht/audio/svt/tectonique.m4a",
+    "chemin_local": null,
+    "taille_mo": 7.1
+  },
+  {
+    "id": "lecon-005",
+    "titre": "Limites et continuité — Méthodes de calcul",
+    "matiere": "Mathématiques",
+    "duree_sec": 3000,
+    "url_distante": "https://cdn.solonapp.ht/audio/smp/limites-continuite.m4a",
+    "chemin_local": null,
+    "taille_mo": 14.0
+  },
+  {
+    "id": "lecon-006",
+    "titre": "Matrices et déterminants — Bases",
+    "matiere": "Mathématiques",
+    "duree_sec": 2700,
+    "url_distante": "https://cdn.solonapp.ht/audio/smp/matrices.m4a",
+    "chemin_local": null,
+    "taille_mo": 12.6
+  },
+  {
+    "id": "lecon-007",
+    "titre": "L'existentialisme — Sartre, Camus et la littérature",
+    "matiere": "Littérature",
+    "duree_sec": 2200,
+    "url_distante": "https://cdn.solonapp.ht/audio/lla/existentialisme.m4a",
+    "chemin_local": null,
+    "taille_mo": 10.3
+  },
+  {
+    "id": "lecon-008",
+    "titre": "La microéconomie — Offre, demande et équilibre",
+    "matiere": "Économie",
+    "duree_sec": 1900,
+    "url_distante": "https://cdn.solonapp.ht/audio/ses/microeconomie.m4a",
+    "chemin_local": null,
+    "taille_mo": 8.9
+  }
+]
