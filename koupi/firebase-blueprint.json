@@ -1,0 +1,48 @@
+{
+  "entities": {
+    "user": {
+      "title": "User",
+      "description": "User profile and subscription status",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "isVIP": { "type": "boolean" },
+        "role": { 
+          "type": "string",
+          "enum": ["user", "admin"]
+        },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email", "role"]
+    },
+    "payment": {
+      "title": "Payment",
+      "description": "Subscription payment requests",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "userEmail": { "type": "string" },
+        "method": { "type": "string", "enum": ["MonCash", "NatCash"] },
+        "transactionId": { "type": "string" },
+        "amount": { "type": "number" },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "processedAt": { "type": "string", "format": "date-time" },
+        "planId": { "type": "string" }
+      },
+      "required": ["userId", "userEmail", "method", "transactionId", "amount", "status"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "user",
+      "description": "User profile data"
+    },
+    "/payments/{paymentId}": {
+      "schema": "payment",
+      "description": "Payment records"
+    }
+  }
+}
